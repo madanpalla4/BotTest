@@ -1,0 +1,127 @@
+[import](common.lg)
+
+# SendActivity_Greeting()
+[Activity
+    Text = ${SendActivity_Greeting_text()}
+]
+
+# SendActivity_Greeting_text()
+- Welcome to your bot.
+
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Sorry, I didn't get that.
+
+# GetCustomAdaptiveCardLookingToDo()
+
+[Activity
+
+    Attachments = ${json(CustomAdaptiveCardLookingToDo())}
+
+]
+
+
+
+#CustomAdaptiveCardLookingToDo()
+
+- ```
+{
+
+    "type": "AdaptiveCard",
+
+    "body": [
+
+        {
+
+            "type": "TextBlock",
+
+            "font-size": "16px",
+
+            "wrap": true,
+
+            "text": "Which state do you live?"
+
+        }
+
+    ],
+
+    "actions": [
+
+    {
+
+            "type": "Action.Submit",
+
+            "id": "Karnantaka",
+
+            "title": "Karnantaka",
+
+            "data": {
+
+                "msteams": {
+
+                    "type": "imBack",
+
+                    "value": "Karnantaka"
+
+            }
+
+        }
+
+    },
+
+    {
+
+      "type": "Action.Submit",
+
+      "id": "Maharashtra",
+
+      "title": "Maharashtra",
+
+      "data": "Maharashtra"
+
+    },
+
+    {
+
+      "type": "Action.Submit",
+
+      "id": "UttarPradesh",
+
+      "title": "Uttar Pradesh",
+
+      "data": "Uttar Pradesh"
+
+    },
+    {
+        "type": "Action.ShowCard",
+        "title": "Set due date",
+        "card": {
+          "type": "AdaptiveCard",
+          "body": [
+            {
+              "type": "Input.Date",
+              "id": "dueDate"
+            }
+          ],
+          "actions": [
+            {
+              "type": "Action.Submit",
+              "title": "OK"
+            }
+          ]
+        }
+      }
+
+  ],
+
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+
+    "version": "1.2"
+
+}```
+# TextInput_Prompt_1NoXxg()
+- ${GetCustomAdaptiveCardLookingToDo()}
