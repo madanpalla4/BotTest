@@ -1,0 +1,217 @@
+[import](common.lg)
+
+# SendActivity_Greeting()
+[Activity
+    Text = ${SendActivity_Greeting_text()}
+]
+
+# SendActivity_Greeting_text()
+- Welcome to your bot.
+
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- ${count(activity.attachments)}  Sorry, I didn't get that.
+# GetCustomAdaptiveCardLookingToDo()
+
+[Activity
+
+    Attachments = ${json(CustomAdaptiveCardLookingToDo())}
+
+]
+
+
+
+#CustomAdaptiveCardLookingToDo()
+
+- ```
+{
+   "type": "AdaptiveCard",
+   "body": [
+      {
+         "type": "TextBlock",
+         "font-size": "16px",
+         "wrap": true,
+         "text": "Which state do you live?"
+      }
+   ],
+   "actions": [
+      {
+         "type": "Action.Submit",
+         "id": "Karnantaka - no type specified",
+         "title": "Karnantaka - no type specified",
+         "data": {
+            "msteams": {
+               "value": "Karnantaka"
+            }
+         }
+      },
+      {
+         "type": "Action.Submit",
+         "id": "Karnantaka - imBack",
+         "title": "Karnantaka - imBack",
+         "data": {
+            "msteams": {
+               "type": "imBack",
+               "value": "Karnantaka"
+            }
+         }
+      },
+      {
+         "type": "Action.Submit",
+         "id": "Karnantaka - postBack",
+         "title": "Karnantaka - postBack",
+         "data": {
+            "msteams": {
+               "type": "postBack",
+               "value": "Karnantaka"
+            }
+         }
+      },
+      {
+         "type": "Action.Submit",
+         "id": "Maharashtra - messageBack",
+         "title": "Maharashtra",
+         "data": {
+            "msteams": {
+               "type": "messageBack",
+               "title": "Maharashtra",
+               "displayText": "Maharashtra",
+               "text": "Maharashtra",
+               "value": "Maharashtra"
+            },"webchat":"tuy"
+         }
+      },
+      {
+         "type": "Action.Submit",
+         "id": "UttarPradesh",
+         "title": "Uttar Pradesh",
+         "data": "Uttar Pradesh"
+      }
+   ],
+   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+   "version": "1.3"
+}```
+
+# GetCustomAdaptiveCardLooking()
+
+[Activity
+
+    Attachments = ${json(CustomAdaptiveCardLooking())}
+
+]
+
+
+
+#CustomAdaptiveCardLooking()
+
+- ```
+{
+   "type": "AdaptiveCard",
+   "body": [
+      {
+         "type": "TextBlock",
+         "font-size": "16px",
+         "wrap": true,
+         "text": "Which city do you live?"
+      }
+   ],
+   "actions": [
+      {
+         "type": "Action.Submit",
+         "id": "Banglore",
+         "title": "Banglore",
+         "data": {
+            "msteams": {
+               "value": "Banglore"
+            }
+         }
+      },
+      {
+         "type": "Action.Submit",
+         "id": "Hassan - imBack",
+         "title": "Hassan",
+         "data": {
+            "msteams": {
+               "type": "imBack",
+               "value": "Hassan"
+            }
+         }
+      },
+      {
+         "type": "Action.Submit",
+         "id": "Chikmaalur - postBack",
+         "title": "Chikmaalur - postBack",
+         "data": {
+            "msteams": {
+               "type": "postBack",
+               "value": "Chikmaalur"
+            }
+         }
+      },
+      {
+         "type": "Action.Submit",
+         "id": "Goa - messageBack",
+         "title": "Goa",
+         "data": {
+            "msteams": {
+               "type": "messageBack",
+               "title": "Goa",
+               "displayText": "Goa",
+               "text": "Goa",
+               "value": "Goa"
+            }
+         }
+      },
+      {
+         "type": "Action.Submit",
+         "id": "Doddaballapur",
+         "title": "Doddaballapur",
+         "data": "Doddaballapur"
+      }
+   ],
+   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+   "version": "1.3"
+}```
+# TextInput_Prompt_2Bux2n()
+- ${GetCustomAdaptiveCardLookingToDo()}
+# SendActivity_WTIPHD()
+[Activity
+    Text = ${SendActivity_WTIPHD_text()}
+]
+
+# SendActivity_WTIPHD_text()
+- ${turn.activity.text}
+# SendActivity_9bIT5E()
+[Activity
+    Text = ${SendActivity_9bIT5E_text()}
+]
+
+# SendActivity_9bIT5E_text()
+- ${dialog.file}
+# TextInput_Prompt_3CqEW1()
+- ${GetCustomAdaptiveCardLooking()}
+# SendActivity_EbLNix()
+[Activity
+    Text = ${SendActivity_EbLNix_text()}
+]
+
+# SendActivity_EbLNix_text()
+- Helloe
+# SendActivity_xjsZR7()
+[Activity
+    Text = ${SendActivity_xjsZR7_text()}
+]
+
+# SendActivity_xjsZR7_text()
+- File Uploaded
+# SendActivity_GTGptY()
+[Activity
+    Text = ${SendActivity_GTGptY_text()}
+]
+
+# SendActivity_GTGptY_text()
+- hell
