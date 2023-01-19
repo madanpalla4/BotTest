@@ -10118,17 +10118,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Labs\\AzureBot\\Test3\\Test3\\Test3.csproj",
+      "projectUniqueName": "d:\\Labs\\AzureBot\\TestBotDragDrop\\Test3\\Test3.csproj",
       "projectName": "Test3",
-      "projectPath": "d:\\Labs\\AzureBot\\Test3\\Test3\\Test3.csproj",
+      "projectPath": "d:\\Labs\\AzureBot\\TestBotDragDrop\\Test3\\Test3.csproj",
       "packagesPath": "C:\\Users\\mpalla\\.nuget\\packages\\",
-      "outputPath": "d:\\Labs\\AzureBot\\Test3\\Test3\\obj\\",
+      "outputPath": "d:\\Labs\\AzureBot\\TestBotDragDrop\\Test3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "d:\\Labs\\AzureBot\\Test3\\Test3\\NuGet.Config",
+        "d:\\Labs\\AzureBot\\TestBotDragDrop\\Test3\\NuGet.Config",
         "C:\\Users\\mpalla\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

@@ -185,29 +185,8 @@
 
 # SendActivity_WTIPHD_text()
 - ${turn.activity.text}
-# SendActivity_9bIT5E()
-[Activity
-    Text = ${SendActivity_9bIT5E_text()}
-]
-
-# SendActivity_9bIT5E_text()
-- ${dialog.file}
 # TextInput_Prompt_3CqEW1()
 - ${GetCustomAdaptiveCardLooking()}
-# SendActivity_EbLNix()
-[Activity
-    Text = ${SendActivity_EbLNix_text()}
-]
-
-# SendActivity_EbLNix_text()
-- Helloe
-# SendActivity_xjsZR7()
-[Activity
-    Text = ${SendActivity_xjsZR7_text()}
-]
-
-# SendActivity_xjsZR7_text()
-- File Uploaded
 # SendActivity_GTGptY()
 [Activity
     Text = ${SendActivity_GTGptY_text()}

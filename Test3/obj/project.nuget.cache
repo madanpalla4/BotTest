@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TXYVmWWrYWlCx1tVh6cJZxwn1B9cFoVWdRYWsJmWsXyAivuEVyMOdMSgJ9ccHwNdkFr04kZFdqaAgQMwD2fpfw==",
+  "dgSpecHash": "Az8w900GMip3c7oHGnF2bbK16jTEKo6FNki1YPP7dX1pjsOxEBP+AmZwdG8yNNGwgbl/GWdzpAbLkw796sxEuA==",
   "success": true,
-  "projectFilePath": "d:\\Labs\\AzureBot\\Test3\\Test3\\Test3.csproj",
+  "projectFilePath": "d:\\Labs\\AzureBot\\TestBotDragDrop\\Test3\\Test3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mpalla\\.nuget\\packages\\adaptiveexpressions\\4.18.1\\adaptiveexpressions.4.18.1.nupkg.sha512",
     "C:\\Users\\mpalla\\.nuget\\packages\\antlr4.runtime.standard\\4.8.0\\antlr4.runtime.standard.4.8.0.nupkg.sha512",

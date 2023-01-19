@@ -130,47 +130,6 @@
           "activity": "${SendActivity_DidNotUnderstand()}"
         }
       ]
-    },
-    {
-      "$kind": "Microsoft.OnActivity",
-      "$designer": {
-        "id": "WHqZsW",
-        "name": "Activities (Activity received)"
-      },
-      "actions": [
-        {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "9bIT5E"
-          },
-          "activity": "${SendActivity_9bIT5E()}"
-        },
-        {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "xjsZR7"
-          },
-          "activity": "${SendActivity_xjsZR7()}"
-        }
-      ]
-    },
-    {
-      "$kind": "Microsoft.OnDialogEvent",
-      "$designer": {
-        "id": "aCbpvF",
-        "name": "Emit a custom event"
-      },
-      "event": "Emit a custom event",
-      "actions": [
-        {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "EbLNix",
-            "comment": "Hello"
-          },
-          "activity": "${SendActivity_EbLNix()}"
-        }
-      ]
     }
   ],
   "generator": "Test3.lg",
